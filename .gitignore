@@ -1,3 +1,9 @@
+ToonTanks/Binaries/
+ToonTanks/Saved/
+ToonTanks/Intermediate/
+ToonTanks/Content/StarterContent/
+ToonTanks/.vs/ToonTanks/v16/.suo
+
 # Visual Studio 2015 user specific files
 .vs/
 
