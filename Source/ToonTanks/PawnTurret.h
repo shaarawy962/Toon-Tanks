@@ -31,10 +31,16 @@ private:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Combat", meta = (AllowPrivateAccess = "true"))
 	float FireRate = 2.0f;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Combat", meta = (AllowPrivateAccess = "true"))
+	float FireRange = 500.0f;
+
 	APawn_Tank* PlayerPawn;
 	FTimerHandle FireRateHandler;
 
 	void CheckFireCondition();
 
 	float ReturnDistanceToPlayer();
+
+	void HandleDestruction() override;
 };

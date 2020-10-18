@@ -20,10 +20,9 @@ void APawnTurret::CheckFireCondition()
 	else
 	{
 		// if player is within range then fire
-		if (ReturnDistanceToPlayer() <= 500.0f)
+		if (ReturnDistanceToPlayer() <= FireRange)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Fire Condition Success"))
-			// Fire
+			Fire();
 		}
 	}
 
@@ -37,12 +36,23 @@ void APawnTurret::BeginPlay()
 	GetWorldTimerManager().SetTimer(FireRateHandler, this, &APawnTurret::CheckFireCondition, FireRate, true);
 
 	PlayerPawn = Cast<APawn_Tank>(UGameplayStatics::GetPlayerPawn(this, 0));
+	
 }
 
 
 void APawnTurret::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	if (!PlayerPawn || ReturnDistanceToPlayer() > FireRange)
+	{
+		return;
+	}
+	else
+	{
+		RotateTurret(PlayerPawn->GetActorLocation());
+	}
+
 }
 
 void APawnTurret::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -62,4 +72,10 @@ float APawnTurret::ReturnDistanceToPlayer()
 		float Distance = FVector::Dist(PlayerPawn->GetActorLocation(), GetActorLocation());
 		return Distance;
 	}
+}
+
+void APawnTurret::HandleDestruction()
+{
+	Super::HandleDestruction();
+	Destroy();
 }
