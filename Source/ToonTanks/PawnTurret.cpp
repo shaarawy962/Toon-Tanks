@@ -22,7 +22,7 @@ void APawnTurret::CheckFireCondition()
 		// if player is within range then fire
 		if (ReturnDistanceToPlayer() <= FireRange)
 		{
-			Fire();
+			Fire(); 
 		}
 	}
 

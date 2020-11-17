@@ -48,8 +48,14 @@ private:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Movement", meta = (AllowPrivateAccess = "true"))
 	float MoveSpeed = 100.0f;
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Movement", meta = (AllowPrivateAccess = "true"))
 	float RotateSpeed = 100.0f;
+
+	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Fire Setup", meta = (AllowPrivateAccess = "true"))
+	//float FireRate = 2.0f;
+
+	//FTimerHandle FireRateHandler;
 
 	APlayerController* PlayerControllerRef;
 };
