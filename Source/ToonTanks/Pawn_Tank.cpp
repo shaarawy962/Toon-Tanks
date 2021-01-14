@@ -37,6 +37,15 @@ void APawn_Tank::Rotate()
 	AddActorLocalRotation(RotationDirection, true);
 }
 
+void APawn_Tank::Fire() {
+	bool isReloaded = (FPlatformTime::Seconds() - LastFireTime) > FireRate;
+
+	if (isReloaded) {
+		Super::Fire();
+		LastFireTime = FPlatformTime::Seconds();
+	}
+}
+
 
 void APawn_Tank::BeginPlay()
 {

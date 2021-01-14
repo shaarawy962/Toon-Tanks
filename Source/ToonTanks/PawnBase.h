@@ -39,6 +39,6 @@ public:
 protected:
 	void RotateTurret(FVector TargetLocation);
 
-	void Fire();
+	virtual void Fire();
 
 };

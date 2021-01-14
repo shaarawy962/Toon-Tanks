@@ -39,6 +39,13 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	USpringArmComponent* SpringArm;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Combat", meta = (AllowPrivateAccess = "true"))
+	float FireRate = 2.0f;
+
+	double LastFireTime = 0;
+
+	void Fire() override;
+
 	FVector MoveDirection;
 	FQuat RotationDirection;
 

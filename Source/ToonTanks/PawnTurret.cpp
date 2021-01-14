@@ -10,6 +10,10 @@ APawnTurret::APawnTurret()
 
 }
 
+void APawnTurret::Fire() {
+	Super::Fire();
+}
+
 void APawnTurret::CheckFireCondition()
 {
 	// If player == null || player is destroyed then bail
@@ -22,7 +26,7 @@ void APawnTurret::CheckFireCondition()
 		// if player is within range then fire
 		if (ReturnDistanceToPlayer() <= FireRange)
 		{
-			Fire(); 
+			Fire();
 		}
 	}
 

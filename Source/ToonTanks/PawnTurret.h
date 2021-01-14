@@ -42,5 +42,7 @@ private:
 
 	void CheckFireCondition();
 
+	void Fire() override;
+
 	float ReturnDistanceToPlayer();
 };

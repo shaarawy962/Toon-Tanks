@@ -21,7 +21,7 @@ void ATankGameModeBase::HandleGameStart()
     GameStart();
 }
 
-int32 ATankGameModeBase::GetTargetTurrets() {
+int32 ATankGameModeBase::GetTargetTurretCount() {
     TArray<AActor*> TurretActors;
     UGameplayStatics::GetAllActorsOfClass(GetWorld(), APawnTurret::StaticClass(), TurretActors);
     return TurretActors.Num();
