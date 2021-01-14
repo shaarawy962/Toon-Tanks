@@ -69,3 +69,8 @@ void APawn_Tank::SetupPlayerInputComponent(class UInputComponent* PlayerInputCom
 	PlayerInputComponent->BindAxis("RotateRight", this, &APawn_Tank::CalculateRotationInput);
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &APawn_Tank::Fire);
 }
+
+void APawn_Tank::HandleDestruction() {
+	Super::HandleDestruction();
+	Destroy();
+}

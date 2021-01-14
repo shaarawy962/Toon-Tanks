@@ -25,6 +25,8 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	virtual void HandleDestruction() override;
+
 	APawnTurret();
 
 private:
@@ -41,6 +43,4 @@ private:
 	void CheckFireCondition();
 
 	float ReturnDistanceToPlayer();
-
-	void HandleDestruction() override;
 };

@@ -38,11 +38,11 @@ void UHealthComponent::TakeDamage(AActor* DamagedActor, float Damage, const UDam
 
 	if (Health <= 0)
 	{
-		GameModeReference->ActorDied(GetOwner());
-	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Health Component has no reference to the GameMode"))
-
+		if (GameModeReference) {
+			GameModeReference->ActorDied(GetOwner());
+		}
+		else {
+			UE_LOG(LogTemp, Warning, TEXT("Health component has no reference to the game mode"))
+		}
 	}
 }

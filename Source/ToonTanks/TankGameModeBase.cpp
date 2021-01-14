@@ -2,26 +2,47 @@
 
 
 #include "TankGameModeBase.h"
+#include "Pawn_Tank.h"
+#include "PawnTurret.h"
+#include "Kismet/GameplayStatics.h"
 
 void ATankGameModeBase::BeginPlay()
 {
+    Super::BeginPlay();
 
+    HandleGameStart();
 }
 
 void ATankGameModeBase::HandleGameStart()
 {
-    // Initialise the start countdown, turret activation, pawn check etc. 
-    // Call Blueprint version GameStart();
+    TargetTurrets = GetTargetTurretCount();
+    PlayerTank = Cast<APawn_Tank>(UGameplayStatics::GetPlayerPawn(this, 0));
+
+    GameStart();
+}
+
+int32 ATankGameModeBase::GetTargetTurrets() {
+    TArray<AActor*> TurretActors;
+    UGameplayStatics::GetAllActorsOfClass(GetWorld(), APawnTurret::StaticClass(), TurretActors);
+    return TurretActors.Num();
 }
 
 void ATankGameModeBase::HandleGameOver(bool PlayerWon)
 {
-    // See if the player has destroyed all the turrets, show win result.
-    // else if turret destroyed player, show lose result. 
-    // Call blueprint version GameOver(bool).
+    GameOver(PlayerWon);
 }
 
 void ATankGameModeBase::ActorDied(AActor* DeadActor)
 {
-    UE_LOG(LogTemp, Warning, TEXT("A Pawn Died"))
+    if (DeadActor == PlayerTank) {
+        PlayerTank->HandleDestruction();
+        HandleGameOver(false);
+    }
+    else if (APawnTurret* DestroyedTurret = Cast<APawnTurret>(DeadActor)) {
+        DestroyedTurret->HandleDestruction();
+
+        if (--TargetTurrets == 0) {
+            HandleGameOver(true);
+        }
+    }
 }
