@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="UE4" targetName="ToonTanks-Win64-DebugGame" />
+      <config projectName="UE4" targetName="FakeTarget" />
+      <config projectName="UE4" targetName="UE4Game" />
+      <config projectName="UE4" targetName="UE4Editor" />
+      <config projectName="UE4" targetName="UE4Game-Win64-DebugGame" />
+      <config projectName="UE4" targetName="UE4Game-Win64-Shipping" />
+      <config projectName="UE4" targetName="ToonTanksEditor" />
+      <config projectName="UE4" targetName="UE4Editor-Win64-Shipping" />
+      <config projectName="UE4" targetName="ToonTanks-Win64-Shipping" />
+      <config projectName="UE4" targetName="ToonTanksEditor-Win64-DebugGame" />
+      <config projectName="UE4" targetName="UE4Editor-Win64-DebugGame" />
+      <config projectName="UE4" targetName="ToonTanksEditor-Win64-Shipping" />
+      <config projectName="UE4" targetName="ToonTanks" />
+    </generated>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
@@ -7,6 +24,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a93d38f1-1486-4e57-b70b-0ad4fb969e93" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ToonTanks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ToonTanks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/Main.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Main.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawn_Tank.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawn_Tank.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawn_Tank.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawn_Tank.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ToonTanks/TankGameModeBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/TankGameModeBase.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +41,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -27,10 +52,110 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="CMake Application.FakeTarget">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FakeTarget" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="FakeTarget" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UE4" RUN_TARGET_NAME="FakeTarget">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToonTanks-Win64-DebugGame" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="ToonTanks-Win64-DebugGame" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToonTanks-Win64-Shipping" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="ToonTanks-Win64-Shipping" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToonTanks" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="ToonTanks" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToonTanksEditor-Win64-DebugGame" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="ToonTanksEditor-Win64-DebugGame" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToonTanksEditor-Win64-Shipping" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="ToonTanksEditor-Win64-Shipping" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToonTanksEditor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="ToonTanksEditor" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Editor-Win64-DebugGame" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Editor-Win64-DebugGame" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Editor-Win64-Shipping" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Editor-Win64-Shipping" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Editor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Editor" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Game-Win64-DebugGame" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Game-Win64-DebugGame" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Game-Win64-Shipping" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Game-Win64-Shipping" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Game" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Game" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.FakeTarget" />
+      <item itemvalue="CMake Application.ToonTanks" />
+      <item itemvalue="CMake Application.ToonTanks-Win64-DebugGame" />
+      <item itemvalue="CMake Application.ToonTanks-Win64-Shipping" />
+      <item itemvalue="CMake Application.ToonTanksEditor" />
+      <item itemvalue="CMake Application.ToonTanksEditor-Win64-DebugGame" />
+      <item itemvalue="CMake Application.ToonTanksEditor-Win64-Shipping" />
+      <item itemvalue="CMake Application.UE4Editor" />
+      <item itemvalue="CMake Application.UE4Editor-Win64-DebugGame" />
+      <item itemvalue="CMake Application.UE4Editor-Win64-Shipping" />
+      <item itemvalue="CMake Application.UE4Game" />
+      <item itemvalue="CMake Application.UE4Game-Win64-DebugGame" />
+      <item itemvalue="CMake Application.UE4Game-Win64-Shipping" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -40,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610999168593</updated>
-      <workItem from="1610999224441" duration="187000" />
+      <workItem from="1610999224441" duration="4691000" />
     </task>
     <servers />
   </component>

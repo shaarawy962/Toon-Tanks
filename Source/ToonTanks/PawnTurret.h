@@ -32,7 +32,7 @@ public:
 private:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Combat", meta = (AllowPrivateAccess = "true"))
-	float FireRate = 2.0f;
+	float FireRate = 0.5f;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Combat", meta = (AllowPrivateAccess = "true"))
 	float FireRange = 500.0f;

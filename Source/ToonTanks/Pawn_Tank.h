@@ -40,7 +40,7 @@ private:
 	USpringArmComponent* SpringArm;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Combat", meta = (AllowPrivateAccess = "true"))
-	float FireRate = 2.0f;
+	float FireRate = 0.30f;
 
 	double LastFireTime = 0;
 
