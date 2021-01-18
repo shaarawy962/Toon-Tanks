@@ -36,12 +36,14 @@ void ATankGameModeBase::ActorDied(AActor* DeadActor)
 {
     if (DeadActor == PlayerTank) {
         PlayerTank->HandleDestruction();
+        UE_LOG(LogTemp, Warning, TEXT("YOU DIED!"))
         HandleGameOver(false);
     }
     else if (APawnTurret* DestroyedTurret = Cast<APawnTurret>(DeadActor)) {
         DestroyedTurret->HandleDestruction();
 
         if (--TargetTurrets == 0) {
+            UE_LOG(LogTemp, Warning, TEXT("YOU WON!"))
             HandleGameOver(true);
         }
     }
