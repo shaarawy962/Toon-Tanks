@@ -23,16 +23,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93d38f1-1486-4e57-b70b-0ad4fb969e93" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ToonTanks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ToonTanks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Maps/Main.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Main.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawn_Tank.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawn_Tank.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawn_Tank.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawn_Tank.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/TankGameModeBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/TankGameModeBase.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="a93d38f1-1486-4e57-b70b-0ad4fb969e93" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +156,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610999168593</updated>
-      <workItem from="1610999224441" duration="4691000" />
+      <workItem from="1610999224441" duration="4992000" />
     </task>
     <servers />
   </component>
