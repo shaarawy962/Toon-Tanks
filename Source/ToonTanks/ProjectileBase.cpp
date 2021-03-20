@@ -43,9 +43,10 @@ void AProjectileBase::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UP
 	if (OtherActor && OtherActor != this && OtherActor != MyOwner)
 	{
 		UGameplayStatics::ApplyDamage(OtherActor, Damage, MyOwner->GetInstigatorController(), this, DamageType);
-	}
 
+	}
+    Destroy();
 	// TODO: play some sound and visual effects on hit moment
-	Destroy();
+
 }
 

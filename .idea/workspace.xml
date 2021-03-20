@@ -6,13 +6,13 @@
       <config projectName="UE4" targetName="FakeTarget" />
       <config projectName="UE4" targetName="UE4Game" />
       <config projectName="UE4" targetName="UE4Editor" />
-      <config projectName="UE4" targetName="UE4Game-Win64-DebugGame" />
       <config projectName="UE4" targetName="UE4Game-Win64-Shipping" />
+      <config projectName="UE4" targetName="UE4Game-Win64-DebugGame" />
       <config projectName="UE4" targetName="ToonTanksEditor" />
       <config projectName="UE4" targetName="UE4Editor-Win64-Shipping" />
+      <config projectName="UE4" targetName="UE4Editor-Win64-DebugGame" />
       <config projectName="UE4" targetName="ToonTanks-Win64-Shipping" />
       <config projectName="UE4" targetName="ToonTanksEditor-Win64-DebugGame" />
-      <config projectName="UE4" targetName="UE4Editor-Win64-DebugGame" />
       <config projectName="UE4" targetName="ToonTanksEditor-Win64-Shipping" />
       <config projectName="UE4" targetName="ToonTanks" />
     </generated>
@@ -24,12 +24,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a93d38f1-1486-4e57-b70b-0ad4fb969e93" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/GameModes/BP_TankGameModeBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/GameModes/BP_TankGameModeBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTank.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTank.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Maps/Main.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Main.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawn_Tank.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawn_Tank.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/ProjectileBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/ProjectileBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/TankGameModeBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/TankGameModeBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/TankGameModeBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/TankGameModeBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FakeTarget.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FakeTarget.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FakeTarget.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FakeTarget.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FakeTarget.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FakeTarget.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FakeTarget.dir/objects12.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FakeTarget.dir/objects12.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FakeTarget.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FakeTarget.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/UE4.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/UE4.cbp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +84,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="CMake Application.ToonTanks">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FakeTarget" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="FakeTarget" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UE4" RUN_TARGET_NAME="FakeTarget">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -168,6 +185,12 @@
       <updated>1610999168593</updated>
       <workItem from="1610999224441" duration="4691000" />
       <workItem from="1611063499014" duration="2512000" />
+      <workItem from="1611077159862" duration="1184000" />
+      <workItem from="1611770013978" duration="967000" />
+      <workItem from="1612041657489" duration="236000" />
+      <workItem from="1612894109872" duration="45000" />
+      <workItem from="1616083117921" duration="859000" />
+      <workItem from="1616231408835" duration="8507000" />
     </task>
     <servers />
   </component>
