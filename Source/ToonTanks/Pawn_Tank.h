@@ -33,6 +33,8 @@ public:
 	
 	APawn_Tank();
 
+	bool GetIsPlayerAlive();
+
 private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	UCameraComponent* Camera;
@@ -41,6 +43,8 @@ private:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Combat", meta = (AllowPrivateAccess = "true"))
 	float FireRate = 0.30f;
+
+	bool isPlayerAlive = true;
 
 	double LastFireTime = 0;
 

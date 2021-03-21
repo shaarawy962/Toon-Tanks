@@ -81,5 +81,13 @@ void APawn_Tank::SetupPlayerInputComponent(class UInputComponent* PlayerInputCom
 
 void APawn_Tank::HandleDestruction() {
 	Super::HandleDestruction();
-	UE_LOG(LogTemp, Warning, TEXT("%s is Destroyed"), *this->GetName())
+
+	isPlayerAlive = false;
+
+	SetActorHiddenInGame(true);
+	SetActorTickEnabled(false);
+}
+
+bool APawn_Tank::GetIsPlayerAlive(){
+    return isPlayerAlive;
 }
