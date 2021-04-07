@@ -19,7 +19,7 @@ Feel free to contribute, we are here to help each other, that's how we learn fro
 
 ![](https://i.imgur.com/u4ino5g.png)
 
-![](E:\Unreal projects\ToonTanks\Simulation.gif)
+![](Simulation.gif)
 
 ![](https://i.imgur.com/EJGRVog.png)
 
